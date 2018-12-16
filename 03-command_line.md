@@ -74,7 +74,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+'xargs' is a command used to build execution pipeline fmor standard input. For example, (from https://shapeshed.com/unix-xargs/) in "find /tmp -mtime +14 | xargs rm" files older than 2 weeks are piped into xargs and then the remove command is run on the files.
 
  
 
