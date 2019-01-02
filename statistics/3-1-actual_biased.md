@@ -14,6 +14,7 @@
     kids_under18.Prob(0)
 
 show the pmf
+
     thinkplot.Hist(kids_under18, label='numkdhh')
     thinkplot.Show()
 
@@ -34,10 +35,12 @@ Compute the biased distribution we would see if we surveyed the children and ask
     thinkplot.Show()
 
 Display actual and biased on same chart
+
     thinkplot.PrePlot(2)
     thinkplot.Pmfs([kids_under18, biased_pmf])
     thinkplot.Show(xlabel='Number of', ylabel='PMF')
 
 Compute means
+
     kids_under18.Mean()
     biased_pmf.Mean()
