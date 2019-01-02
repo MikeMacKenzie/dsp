@@ -1,7 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >>> 
- To compute Cohen'd d I used the existing thinkstats Summarize function.
+ To compute Cohen's d I used the existing thinkstats Summarize function.
  I replaced "prglngth" with "totalwgt_lb"
 
     def Summarize2(live, firsts, others):
