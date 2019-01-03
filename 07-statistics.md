@@ -90,10 +90,15 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 P(A|BB) = (P(BB|A) * P(A)) / ( ((P(BB|A) * P(A)) + (P(BB|!A) * P(!A))))
 
 Where P(A|B) is the probability that twins are identical if two boys = ??
+
 P(BB|A) is the probability of having two boys if having identical twins = 0.5
+
 P(A) is probability of having identical twins (if having twins) = 0.294
+
 P(BB) is probability of having two boys
+
 P(BB|!A) is probability of having 2 boys if having not identical twins = 0.25
+
 P(!A) is probability of having not identical twins = 0.706
 
     frat = 1/125
