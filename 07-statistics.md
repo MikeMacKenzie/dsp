@@ -115,7 +115,13 @@ The probability that Elvis was an identical twin is 0.45.
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+Frequentist statistics involves Null Hypothesis Significance Testing and does not involve subjective a priori knowledge.
+From a frequentist view, hypotheses are fixed (not probabilistic) and data are only a sample from the population and thus representative of the true population only in some probabilistic sense.
+In Bayesian statistics, both the hypotheses and the data are probabilistic in nature.
+
+
+
 
 ---
 
